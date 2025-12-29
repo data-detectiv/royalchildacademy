@@ -1,0 +1,13 @@
+# Render Blueprint for Royal Child Care Center Website
+services:
+  - type: web
+    name: royal-child-care
+    runtime: node
+    region: oregon
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+
