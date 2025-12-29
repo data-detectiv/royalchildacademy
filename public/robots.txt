@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.royalchildhome.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /api/
+Disallow: /employee-login
+
