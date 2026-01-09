@@ -6,34 +6,40 @@ import { Icons } from '../icons'
 const FormsList = () => {
   const forms = [
     {
+      title: 'Employment Application',
+      description: 'Application form for job seekers interested in joining our team.',
+      icon: Icons.briefcase,
+      href: '/RC - Form.pdf',
+    },
+    {
       title: 'Referral Form',
       description: 'Form for professionals to refer a child to our services.',
       icon: Icons.clipboard,
+      href: null,
     },
     {
       title: 'Family Information',
       description: 'Family background and contact information form.',
       icon: Icons.family,
+      href: null,
     },
     {
       title: 'Medical History',
       description: 'Comprehensive medical history questionnaire.',
       icon: Icons.hospital,
+      href: null,
     },
     {
       title: 'Consent Forms',
       description: 'Required consent and authorization documents.',
       icon: Icons.fileText,
+      href: null,
     },
     {
       title: 'Visitation Request',
       description: 'Request form for scheduling family visits.',
       icon: Icons.calendar,
-    },
-    {
-      title: 'Employment Application',
-      description: 'Application form for job seekers.',
-      icon: Icons.briefcase,
+      href: null,
     },
   ]
 
@@ -57,10 +63,22 @@ const FormsList = () => {
                 {form.title}
               </h3>
               <p className="text-gray-500 mb-4 md:mb-6 text-sm md:text-base">{form.description}</p>
-              <button className="inline-flex items-center gap-2 text-accent font-medium group-hover:underline text-sm md:text-base">
-                <div className="w-4 h-4">{Icons.download}</div>
-                Download PDF
-              </button>
+              {form.href ? (
+                <a
+                  href={form.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-accent font-medium group-hover:underline text-sm md:text-base"
+                >
+                  <div className="w-4 h-4">{Icons.download}</div>
+                  Download PDF
+                </a>
+              ) : (
+                <span className="inline-flex items-center gap-2 text-gray-400 font-medium text-sm md:text-base">
+                  <div className="w-4 h-4">{Icons.download}</div>
+                  Contact for Form
+                </span>
+              )}
             </motion.div>
           ))}
         </div>

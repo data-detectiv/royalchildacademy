@@ -29,8 +29,8 @@ const About = () => {
               {/* Main Image */}
               <div className="image-wrapper aspect-[4/3]">
                 <Image
-                  src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80"
-                  alt="Children in group home"
+                  src="https://images.unsplash.com/photo-1607453998774-d533f65dac99?w=800&q=80"
+                  alt="Supportive care environment"
                   fill
                   className="object-cover"
                 />
@@ -38,8 +38,8 @@ const About = () => {
               {/* Overlapping Image */}
               <div className="absolute -bottom-8 -right-8 w-2/3 image-wrapper aspect-square shadow-2xl border-4 border-white">
                 <Image
-                  src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&q=80"
-                  alt="Caregiver with child"
+                  src="https://images.unsplash.com/photo-1491013516836-7db643ee125a?w=600&q=80"
+                  alt="Happy child"
                   fill
                   className="object-cover"
                 />
@@ -59,16 +59,18 @@ const About = () => {
             <span className="section-label">About Us</span>
             <h2 className="section-title">
               Caring for Children
-              <span className="text-accent"> Since 2010</span>
+              <span className="text-accent"> Since 2018</span>
             </h2>
             <p className="section-subtitle mb-6 md:mb-8">
-              At Royal Child Care, we combine expertise, flexibility, and commitment with 
-              compassion to provide the best quality group home care in North Carolina.
+              At Royal Child Academy, we combine expertise, flexibility, and commitment with
+              compassion to provide the best quality residential care in North Carolina.
             </p>
             <p className="text-gray-500 mb-6 md:mb-8 leading-relaxed">
-              Our mission is to assist clients in meeting their care needs within the 
-              group home setting, treating all clients, families, and caregivers with 
-              dignity and respecting their individual rights.
+              Our mission is to assist clients in meeting their care needs within the
+              home care setting, treating all clients, families, and caregivers with
+              dignity and respecting their individual rights. We excel at creating an
+              atmosphere where opportunities exist for I/DD children to make choices,
+              increase their independence, and maximize personal potential.
             </p>
 
             {/* Features */}

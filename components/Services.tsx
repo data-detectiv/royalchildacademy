@@ -8,24 +8,24 @@ import { Icons } from './icons'
 const Services = () => {
   const services = [
     {
-      image: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=600&q=80',
-      title: 'Residential Care',
-      description: 'Safe, nurturing group home environments where children can thrive and grow.',
+      image: 'https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=600&q=80',
+      title: 'Residential Services',
+      description: 'DDA group homes for children with Autism and developmental disabilities in Charlotte and Gastonia.',
     },
     {
-      image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&q=80',
-      title: '24/7 Support',
-      description: 'Round-the-clock care from our dedicated team of trained professionals.',
+      image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80',
+      title: 'Residential Support',
+      description: 'Aid personal success and develop independence through our Community Living Arrangement programs.',
     },
     {
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
+      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80',
       title: 'Clinical Services',
-      description: 'Comprehensive clinical supports including therapy, nursing, and more.',
+      description: 'Psychology, Speech, Nursing, Dietary, Pharmacy and Social Work supports as needed.',
     },
     {
-      image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&q=80',
-      title: 'Life Skills',
-      description: 'Personalized programs to develop independence and daily living skills.',
+      image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80',
+      title: 'Community Networking',
+      description: 'Habilitative, social, vocational, educational and recreational choices for independence.',
     },
   ]
 
@@ -47,7 +47,7 @@ const Services = () => {
             </h2>
           </div>
           <p className="text-lg md:text-xl text-white/60 max-w-md">
-            We offer a full range of services designed to meet the unique needs of each child.
+            We offer residential homes for children with disabilities, providing individualized services and learning opportunities.
           </p>
         </motion.div>
 

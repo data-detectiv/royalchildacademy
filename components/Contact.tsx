@@ -47,8 +47,8 @@ const Contact = () => {
             {/* Image - Hidden on mobile */}
             <div className="hidden md:block image-wrapper aspect-[4/3] mb-8">
               <Image
-                src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&q=80"
-                alt="Contact us"
+                src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800&q=80"
+                alt="Friendly support team"
                 fill
                 className="object-cover"
               />

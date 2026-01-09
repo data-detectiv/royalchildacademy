@@ -7,9 +7,9 @@ import { Icons } from './icons'
 
 const WhyRoyalCare = () => {
   const stats = [
-    { value: '15+', label: 'Years Experience' },
-    { value: '100+', label: 'Families Served' },
-    { value: '3', label: 'Locations' },
+    { value: '10', label: 'Programs' },
+    { value: '15', label: 'Years of Excellence' },
+    { value: '6', label: 'Locations' },
     { value: '24/7', label: 'Support' },
   ]
 
@@ -71,16 +71,16 @@ const WhyRoyalCare = () => {
               <div className="space-y-4">
                 <div className="image-wrapper aspect-[4/5]">
                   <Image
-                    src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=600&q=80"
-                    alt="Child playing"
+                    src="https://images.unsplash.com/photo-1602030028438-4cf153cbae9e?w=600&q=80"
+                    alt="Child in supportive environment"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="image-wrapper aspect-square">
                   <Image
-                    src="https://images.unsplash.com/photo-1602030028438-4cf153cbae9e?w=600&q=80"
-                    alt="Group activity"
+                    src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80"
+                    alt="Professional caregiver"
                     fill
                     className="object-cover"
                   />
@@ -89,15 +89,15 @@ const WhyRoyalCare = () => {
               <div className="space-y-4 pt-8">
                 <div className="image-wrapper aspect-square">
                   <Image
-                    src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=600&q=80"
-                    alt="Child smiling"
+                    src="https://images.unsplash.com/photo-1491013516836-7db643ee125a?w=600&q=80"
+                    alt="Happy child"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div className="image-wrapper aspect-[4/5]">
                   <Image
-                    src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=600&q=80"
+                    src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&q=80"
                     alt="Learning activity"
                     fill
                     className="object-cover"

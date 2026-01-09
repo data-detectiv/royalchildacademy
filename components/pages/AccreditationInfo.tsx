@@ -18,15 +18,15 @@ const AccreditationInfo = () => {
       ],
     },
     {
-      title: 'NC DHHS Licensed',
+      title: 'Partners Behavioral Health Management',
       description:
-        'Royal Child Care is fully licensed by the North Carolina Department of Health and Human Services, meeting all state requirements for residential group homes.',
+        'Royal Child Academy contracts with Partners Behavioral Health Management to provide comprehensive care services meeting all requirements for residential group homes.',
       icon: Icons.checkCircle,
       features: [
-        'State compliance',
-        'Regular inspections',
-        'Staff qualifications',
-        'Safety standards',
+        'Contract partnership',
+        'Behavioral health services',
+        'Quality care standards',
+        'Comprehensive support',
       ],
     },
   ]

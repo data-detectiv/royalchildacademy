@@ -48,12 +48,12 @@ const Header = () => {
               <span className={`font-serif text-lg md:text-xl font-semibold tracking-tight transition-colors ${
                 isScrolled ? 'text-primary' : 'text-white'
               }`}>
-                Royal Child Care
+                Royal Child Academy
               </span>
               <span className={`text-[8px] md:text-[10px] tracking-[0.15em] uppercase transition-colors hidden sm:block ${
                 isScrolled ? 'text-gray-500' : 'text-white/70'
               }`}>
-                Center Inc.
+                Since 2018
               </span>
             </div>
           </Link>

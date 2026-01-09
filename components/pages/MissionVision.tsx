@@ -23,13 +23,13 @@ const MissionVision = () => {
               Our Mission
             </h2>
             <p className="text-gray-500 leading-relaxed mb-4 md:mb-6 text-sm md:text-base">
-              To assist our clients in meeting their care needs within the group home 
-              setting, treating all clients, families, and caregivers with dignity and 
-              respecting their individual rights.
+              To assist clients in meeting their care needs within the home care setting,
+              treating all clients, families, and caregivers with dignity and respecting
+              their individual rights.
             </p>
             <p className="text-gray-500 leading-relaxed text-sm md:text-base">
-              We strive to create an environment where every child feels valued, 
-              supported, and empowered to reach their full potential.
+              We excel at creating an atmosphere where opportunities exist for I/DD children
+              to make choices, increase their independence, and maximize personal potential.
             </p>
           </motion.div>
 
@@ -48,13 +48,15 @@ const MissionVision = () => {
               Our Vision
             </h2>
             <p className="text-gray-500 leading-relaxed mb-4 md:mb-6 text-sm md:text-base">
-              To be the premier residential group home provider in North Carolina, 
-              known for our exceptional care, innovative programs, and commitment 
-              to the well-being of every child we serve.
+              To promote and inspire consumers and guardians through systems of care
+              that ensure attainment and fulfillment of their unique personal and daily
+              needs within their homes and in the community in general.
             </p>
             <p className="text-gray-500 leading-relaxed text-sm md:text-base">
-              We envision a future where every child in our care has the opportunity 
-              to thrive and lead a fulfilling life.
+              Our Community Living Arrangement and Continuous Residence Support programs
+              provide habilitative, social, vocational, educational and recreational
+              choices that enable each individual to develop increased levels of
+              independence and personal success.
             </p>
           </motion.div>
         </div>

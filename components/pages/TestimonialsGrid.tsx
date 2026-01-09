@@ -7,48 +7,40 @@ const TestimonialsGrid = () => {
   const testimonials = [
     {
       quote:
-        'Royal Child Care has been a blessing for our family. The care and attention our son receives is exceptional. The staff truly understands his needs and goes above and beyond every day.',
-      author: 'Sarah Johnson',
-      role: 'Parent',
+        'We have been very pleased with the high standards of professionalism and kindness and work ethic from the Royal Child Care team. I recommend this company to everyone. I thank you so much for the care. Keep up the good work.',
+      author: 'Jerry Callahan & Family',
+      role: 'Family',
       location: 'Charlotte, NC',
       rating: 5,
     },
     {
       quote:
-        'We could not be happier with the care our daughter receives. The staff is compassionate, professional, and truly cares about each resident. We have peace of mind knowing she is in good hands.',
-      author: 'Michael Chen',
+        'They were exceptional in all areas of service. I thank you for the assistance.',
+      author: 'Illiana Ortega',
       role: 'Family Member',
       location: 'Charlotte, NC',
       rating: 5,
     },
     {
       quote:
-        'The individualized care plan has made such a difference. Our son has grown so much since coming to Royal Child Care. The programs and support are exactly what we were looking for.',
-      author: 'Emily Rodriguez',
-      role: 'Parent',
-      location: 'Charlotte, NC',
-      rating: 5,
-    },
-    {
-      quote:
-        'The communication with staff is excellent. We are always kept informed about our loved ones progress and any concerns. The transparency and partnership mean everything to us.',
-      author: 'David Thompson',
+        'I truly appreciate the responsiveness and receptiveness of the team. They are caring and very reliable.',
+      author: 'Thomas K. Sakyi',
       role: 'Family Member',
       location: 'Charlotte, NC',
       rating: 5,
     },
     {
       quote:
-        'Royal Child Care provides a home-like environment that makes all the difference. Our daughter feels comfortable and safe, which allows her to thrive and grow.',
-      author: 'Lisa Anderson',
-      role: 'Parent',
+        'I thank you for the work you did. Made everything safe and comfortable.',
+      author: 'Susanna Truong',
+      role: 'Family Member',
       location: 'Charlotte, NC',
       rating: 5,
     },
     {
       quote:
-        'The clinical support services are comprehensive and well-coordinated. We appreciate having access to all the specialists our son needs in one place.',
-      author: 'Robert Williams',
+        'We cannot thank Royal Child Care and its exceptional staff enough. She was extremely qualified and professional in her demeanor, gracious and respectful to our entire family.',
+      author: 'Chrystal B.',
       role: 'Family Member',
       location: 'Charlotte, NC',
       rating: 5,

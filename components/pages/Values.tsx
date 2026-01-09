@@ -8,32 +8,32 @@ const Values = () => {
     {
       icon: Icons.heartFilled,
       title: 'Compassion',
-      description: 'Approaching every interaction with empathy and understanding.',
+      description: 'Guaranteeing compassionate care from the heart while respecting dignity, pride, and independence.',
     },
     {
       icon: Icons.star,
       title: 'Excellence',
-      description: 'Striving for the highest standards in everything we do.',
+      description: 'Combining expertise, flexibility, and commitment to provide the best quality care.',
     },
     {
       icon: Icons.shield,
       title: 'Integrity',
-      description: 'Operating with honesty, transparency, and ethical practices.',
+      description: 'Operating with professionalism and a passion for excellence in all we do.',
     },
     {
       icon: Icons.target,
-      title: 'Dedication',
-      description: 'Committed to the growth and well-being of every child.',
+      title: 'Independence',
+      description: 'Creating opportunities for I/DD children to increase their independence and maximize potential.',
     },
     {
       icon: Icons.family,
-      title: 'Family',
-      description: 'Partnering with families to provide the best possible care.',
+      title: 'Person-Centered',
+      description: 'Developing care plans based on individual needs with hand-selected, thoughtful teams.',
     },
     {
       icon: Icons.refresh,
-      title: 'Innovation',
-      description: 'Continuously improving our programs and approaches.',
+      title: 'Quality',
+      description: 'Making a difference through quality, affordable, personalized, and timely service.',
     },
   ]
 
@@ -52,7 +52,7 @@ const Values = () => {
             The Principles That <span className="text-accent">Guide Us</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            These core values shape our culture and drive our commitment to excellence.
+            To provide exceptional care that enriches the lives of our clients and provides peace of mind for their families.
           </p>
         </motion.div>
 

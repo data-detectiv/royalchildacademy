@@ -53,7 +53,7 @@ const ReferralsInfo = () => {
             Referral <span className="text-accent">Sources</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            We accept referrals from various sources committed to helping children.
+            We are ready to partner with you. As a caregiver, we know your patient health is your top priority.
           </p>
         </motion.div>
 

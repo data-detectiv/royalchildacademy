@@ -11,8 +11,8 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=1920&q=80"
-          alt="Children playing"
+          src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=1920&q=80"
+          alt="Caring environment"
           fill
           className="object-cover opacity-30"
           priority
@@ -31,14 +31,14 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="section-label text-accent">Welcome to Royal Child Care</span>
+            <span className="section-label text-accent">Welcome to Royal Child Academy</span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-semibold text-white mb-6 leading-[1.1]">
               Where Every Child
               <span className="block text-accent">Belongs</span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 mb-8 md:mb-10 max-w-lg leading-relaxed">
-              Providing exceptional residential group home services for children with 
-              disabilities in Charlotte, North Carolina.
+              Providing exceptional residential group home services for I/DD children
+              in Charlotte and Gastonia, North Carolina since 2018.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/services" className="btn btn-primary">
@@ -67,14 +67,14 @@ const Hero = () => {
                   <div className="w-5 h-5 md:w-6 md:h-6 text-accent">{Icons.shield}</div>
                 </div>
                 <div>
-                  <p className="text-white font-semibold text-sm md:text-base">DHHS Licensed</p>
+                  <p className="text-white font-semibold text-sm md:text-base">Licensed Agency</p>
                   <p className="text-white/50 text-xs md:text-sm">State Certified</p>
                 </div>
               </div>
             </div>
           </motion.div>
 
-          {/* Hero Image - Hidden on mobile */}
+          {/* Hero Video - Hidden on mobile */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -83,12 +83,13 @@ const Hero = () => {
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-accent/20 to-accent/10 rounded-3xl blur-2xl" />
-              <div className="relative image-wrapper aspect-[4/5]">
-                <Image
-                  src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=800&q=80"
-                  alt="Child smiling"
-                  fill
-                  className="object-cover rounded-3xl"
+              <div className="relative aspect-video rounded-3xl overflow-hidden shadow-2xl">
+                <iframe
+                  src="https://www.youtube.com/embed/v4Nq-bLkvP8"
+                  title="Royal Child Academy Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full"
                 />
               </div>
               {/* Floating Card */}
@@ -96,14 +97,14 @@ const Hero = () => {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
-                className="absolute -left-8 bottom-20 glass rounded-2xl p-5"
+                className="absolute -left-8 -bottom-6 glass rounded-2xl p-5"
               >
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
                     <div className="w-6 h-6 text-accent">{Icons.heart}</div>
                   </div>
                   <div>
-                    <p className="text-2xl font-serif font-semibold text-primary">15+</p>
+                    <p className="text-2xl font-serif font-semibold text-primary">Since 2018</p>
                     <p className="text-gray-500 text-sm">Years of Care</p>
                   </div>
                 </div>

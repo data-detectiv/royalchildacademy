@@ -11,32 +11,37 @@ const FAQAccordion = () => {
     {
       question: 'What types of care do you provide?',
       answer:
-        'We provide 24/7 residential group home care for children with disabilities. Our services include personal care, clinical support, therapy services, life skills development, and recreational activities.',
+        'We offer residential home services for children with disabilities, including DDA group homes for Autism and developmental disabilities. Our services include residential support, clinical services (Psychology, Speech, Nursing, Dietary, Pharmacy, Social Work), and community networking programs.',
     },
     {
-      question: 'How do I know if my child qualifies for your services?',
+      question: 'Where are your locations?',
       answer:
-        'Children who qualify typically have developmental, intellectual, or physical disabilities that require residential care. We work with families and referral sources to determine eligibility based on individual needs.',
+        'We currently have two group homes in the Charlotte and Gastonia area. Our residential services are funded through State and County appropriations, Medicaid (ICF/IDD, Innovations), and resident fees such as Social Security, SSI and SA benefits, as well as private pay for services.',
     },
     {
-      question: 'What is the referral process?',
+      question: 'What programs do you offer?',
       answer:
-        'Referrals can come from DSS, MCO care coordinators, hospitals, or families directly. Contact us to start the process, and we will guide you through the necessary steps and paperwork.',
+        'Our Community Living Arrangement and Continuous Residence Support programs provide habilitative, social, vocational, educational and recreational choices that enable each individual to develop increased levels of independence and personal success.',
     },
     {
-      question: 'Can families visit their children?',
+      question: 'What is your experience?',
       answer:
-        'Absolutely! We encourage family involvement and regular visits. We work with families to schedule visits that work for everyone and support ongoing family connections.',
+        'Founded in 2018, Royal Child Academy has extensive past performance with Good Shepherd Church I/DD Children, Lighthouse Children with I/DD, and numerous other families with I/DD children. We have built a reputation of excellence in comprehensive, quality, friendly and patient-centered care.',
     },
     {
-      question: 'What training does your staff receive?',
+      question: 'What makes Royal Child Academy different?',
       answer:
-        'All staff complete comprehensive training including CPR/First Aid, crisis intervention, medication administration, and specialized training for working with children with disabilities.',
+        'At Royal Child Academy, we believe families deserve to work with a provider who sees you or your loved one as more than just a patient. We develop care plans based on individual needs and our teams are hand-selected for their ability to provide thoughtful and respectful care.',
     },
     {
       question: 'Are you licensed and accredited?',
       answer:
-        'Yes, we are licensed by NC DHHS and accredited by CQL (Council on Quality and Leadership), demonstrating our commitment to high-quality care.',
+        'Yes, Royal Child Academy is a licensed and certified agency. We are accredited by CQL (Council on Quality and Leadership) and contract with Partners Behavioral Health Management, demonstrating our commitment to high-quality care.',
+    },
+    {
+      question: 'How do I contact you for more information?',
+      answer:
+        'For information about Residential Services, email us at nhinton@royalchildhome.com or call 704-606-9243. Royal Child Academy is available 24 hours a day, 7 days per week.',
     },
   ]
 

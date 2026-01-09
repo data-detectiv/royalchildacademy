@@ -7,26 +7,28 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.royalchildhome.com'),
   title: {
-    default: 'Royal Child Care Center Inc. | Residential Group Home in Charlotte, NC',
-    template: '%s | Royal Child Care Center',
+    default: 'Royal Child Academy | Residential Group Home in Charlotte & Gastonia, NC',
+    template: '%s | Royal Child Academy',
   },
   description:
-    'Royal Child Care Center provides exceptional residential group home services for children with disabilities in Charlotte, North Carolina. We combine expertise with compassion.',
+    'Royal Child Academy provides exceptional residential group home services for I/DD children in Charlotte and Gastonia, North Carolina since 2018. CQL accredited with expertise, flexibility, and compassion.',
   keywords: [
     'residential care',
     'group home',
-    'children with disabilities',
+    'I/DD children',
+    'autism care',
+    'developmental disabilities',
     'Charlotte NC',
-    'child care',
+    'Gastonia NC',
     'CQL accredited',
-    'DHHS licensed',
+    'DDA group homes',
   ],
   openGraph: {
-    title: 'Royal Child Care Center Inc.',
+    title: 'Royal Child Academy',
     description:
-      'Exceptional residential group home services for children with disabilities in Charlotte, NC.',
+      'Exceptional residential group home services for I/DD children in Charlotte and Gastonia, NC since 2018.',
     url: 'https://www.royalchildhome.com',
-    siteName: 'Royal Child Care Center',
+    siteName: 'Royal Child Academy',
     locale: 'en_US',
     type: 'website',
   },

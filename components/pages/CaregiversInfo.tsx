@@ -7,34 +7,34 @@ import { Icons } from '../icons'
 const CaregiversInfo = () => {
   const benefits = [
     {
-      icon: Icons.handshake,
-      title: 'Supportive Partnership',
-      description: 'Work with a team that values your contribution and supports your success.',
-    },
-    {
       icon: Icons.graduationCap,
-      title: 'Training & Development',
-      description: 'Access comprehensive training programs to enhance your caregiving skills.',
-    },
-    {
-      icon: Icons.dollarSign,
-      title: 'Competitive Compensation',
-      description: 'Receive fair pay and benefits for your valuable work.',
+      title: 'Expertise',
+      description: 'Experienced, pre-screened, insured, and bonded caregivers who receive ongoing continuing education.',
     },
     {
       icon: Icons.home,
-      title: 'Flexible Opportunities',
-      description: 'Find positions that fit your schedule and preferences.',
+      title: 'Flexibility',
+      description: 'Hours of care customized to patient preferences. Schedules change as client needs change.',
+    },
+    {
+      icon: Icons.handshake,
+      title: 'Compatibility',
+      description: 'Ensured compatibility between the client and caregiver for the best care experience.',
+    },
+    {
+      icon: Icons.shield,
+      title: 'Licensed',
+      description: 'Royal Child Academy is a licensed and certified agency with trained professionals.',
     },
   ]
 
   const requirements = [
-    'Valid drivers license and reliable transportation',
-    'High school diploma or equivalent',
-    'Ability to pass background check',
-    'CPR/First Aid certification (or willingness to obtain)',
-    'Passion for working with children with disabilities',
-    'Strong communication and interpersonal skills',
+    'Trained specifically to provide in-home care',
+    'Successfully passed extensive background checks',
+    'Bonded and insured',
+    'Ongoing education on caregiving skills',
+    'Services support individual preferences',
+    'Maintaining dignity and independence of patients',
   ]
 
   return (

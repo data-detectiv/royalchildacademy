@@ -7,18 +7,18 @@ const Focus = () => {
   const values = [
     {
       icon: Icons.target,
-      title: 'Service',
-      description: 'Dedicated to providing exceptional care that meets the unique needs of each individual we serve.',
+      title: 'Finding the Right Care',
+      description: 'We want to make it easy for you to find the home care service you need, helping you find the service that makes each day a little easier.',
     },
     {
       icon: Icons.handshake,
-      title: 'Community',
-      description: 'Building strong connections between residents, families, caregivers, and the broader community.',
+      title: 'Quality & Affordability',
+      description: 'Our goal is to make a difference in health by providing quality, affordable, personalized, and timely service.',
     },
     {
       icon: Icons.heartFilled,
-      title: 'Care',
-      description: 'Approaching every interaction with compassion, dignity, and respect for individual rights.',
+      title: 'Patient-Centered Care',
+      description: 'We pay particular attention to patient preference, safety, privacy, and confidentiality in the planning of care.',
     },
   ]
 

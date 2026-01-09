@@ -6,51 +6,51 @@ import Image from 'next/image'
 const ServiceDetails = () => {
   const services = [
     {
-      image: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80',
-      title: 'Residential Care',
+      image: 'https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=800&q=80',
+      title: 'Residential Services',
       description:
-        'Our group homes provide a safe, nurturing environment where children can thrive. Each home is designed to feel like a real home, with comfortable living spaces and personalized care.',
+        'Royal Child Academy has provided residential services for people with autism and other developmental disabilities since 2019. Our residents enjoy individualized services and learning opportunities at homes, school or work, and throughout the community.',
       features: [
+        'DDA group homes (Autism, DD)',
+        'Charlotte and Gastonia locations',
         'Home-like environment',
-        'Personalized care plans',
-        'Family-style meals',
-        'Structured daily routines',
+        'Individualized services',
       ],
     },
     {
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80',
       title: 'Clinical Support',
       description:
-        'Our clinical team provides comprehensive support services including therapy, nursing care, and specialized interventions tailored to each child.',
+        'Clinical supports are provided as needed to ensure comprehensive care for each resident. Our team of professionals works together to meet individual health and developmental needs.',
       features: [
-        'Behavioral therapy',
-        'Occupational therapy',
-        'Speech therapy',
-        'Nursing services',
+        'Psychology',
+        'Speech and Language',
+        'Nursing and Dietary',
+        'Pharmacy and Social Work',
       ],
     },
     {
-      image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&q=80',
-      title: '24/7 Professional Care',
+      image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+      title: 'Community Living Arrangement',
       description:
-        'Our trained staff provides round-the-clock care and supervision, ensuring every child receives the attention and support they need at all times.',
+        'Our Community Living Arrangement programs provide habilitative, social, vocational, educational and recreational choices that enable each individual to develop increased levels of independence and personal success.',
       features: [
-        'Trained caregivers',
-        'Emergency response',
-        'Medication management',
-        'Health monitoring',
+        'Aid personal success',
+        'Develop independence',
+        'Community networking',
+        'Vocational support',
       ],
     },
     {
-      image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80',
-      title: 'Life Skills Development',
+      image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80',
+      title: 'Continuous Residence Support',
       description:
-        'We help children develop essential life skills through structured programs and activities, preparing them for greater independence.',
+        'Our Continuous Residence Support programs create opportunities for I/DD children to make choices, increase their independence, and maximize personal potential in a supportive environment.',
       features: [
-        'Daily living skills',
-        'Social skills training',
-        'Educational support',
-        'Recreation activities',
+        'Educational choices',
+        'Recreational activities',
+        'Social development',
+        'Personal growth',
       ],
     },
   ]
