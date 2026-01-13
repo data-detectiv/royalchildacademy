@@ -16,7 +16,7 @@ const FAQAccordion = () => {
     {
       question: 'Where are your locations?',
       answer:
-        'We currently have two group homes in the Charlotte and Gastonia area. Our residential services are funded through State and County appropriations, Medicaid (ICF/IDD, Innovations), and resident fees such as Social Security, SSI and SA benefits, as well as private pay for services.',
+        'We currently have six group homes in the Charlotte and Gastonia area. Our residential services are funded through State and County appropriations, Medicaid (ICF/IDD, Innovations), and resident fees such as Social Security, SSI and SA benefits, as well as private pay for services.',
     },
     {
       question: 'What programs do you offer?',

@@ -8,8 +8,8 @@ import { Icons } from './icons'
 const WhyRoyalCare = () => {
   const stats = [
     { value: '10', label: 'Programs' },
-    { value: '15', label: 'Years of Excellence' },
-    { value: '6', label: 'Locations' },
+    { value: '7+', label: 'Years of Excellence' },
+    { value: '6', label: 'Homes' },
     { value: '24/7', label: 'Support' },
   ]
 

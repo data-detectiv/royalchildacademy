@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 
 const Stats = () => {
   const stats = [
-    { value: '15+', label: 'Years of Excellence' },
+    { value: '7+', label: 'Years of Excellence' },
     { value: '100+', label: 'Families Served' },
-    { value: '3', label: 'Group Home Locations' },
-    { value: '50+', label: 'Dedicated Staff' },
+    { value: '6', label: 'Group Home Locations' },
+    { value: '24/7', label: 'Support Available' },
   ]
 
   return (

@@ -34,8 +34,8 @@ const AboutHero = () => {
             <span className="block text-accent">Care & Compassion</span>
           </h1>
           <p className="text-xl text-white/70 max-w-2xl leading-relaxed">
-            Since 2010, we have been dedicated to providing exceptional residential 
-            care for children with disabilities in Charlotte, North Carolina.
+            Since 2018, we have been dedicated to providing exceptional residential
+            care for I/DD children in Charlotte and Gastonia, North Carolina.
           </p>
         </motion.div>
       </div>

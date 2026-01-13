@@ -33,7 +33,7 @@ const WhyHero = () => {
             <span className="block text-accent">Choose Us</span>
           </h1>
           <p className="text-xl text-white/70 leading-relaxed">
-            Discover what makes Royal Child Care Center the trusted choice for families in Charlotte.
+            Discover what makes Royal Child Academy the trusted choice for families in Charlotte and Gastonia.
           </p>
         </motion.div>
       </div>

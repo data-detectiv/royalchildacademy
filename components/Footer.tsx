@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-4 md:mb-6 max-w-xs">
-              Providing exceptional residential group home services for I/DD children
+              Providing exceptional residential group home services for I/DD children and other disabilities
               in Charlotte and Gastonia, North Carolina since 2018.
             </p>
             {/* Social Links */}
@@ -144,7 +144,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-6 md:pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/40 text-xs md:text-sm text-center md:text-left">
-            &copy; 2025 Royal Child Academy. All rights reserved.
+            &copy; {new Date().getFullYear()} Royal Child Academy. All rights reserved.
           </p>
           <div className="flex items-center gap-4 md:gap-6 text-xs md:text-sm">
             <Link href="/privacy" className="text-white/40 hover:text-accent transition-colors">

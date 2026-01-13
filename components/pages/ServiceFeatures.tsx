@@ -9,7 +9,7 @@ const ServiceFeatures = () => {
     { icon: Icons.trophy, title: 'CQL Accredited', description: 'Quality leadership certified' },
     { icon: Icons.users, title: 'Expert Staff', description: 'Trained and compassionate team' },
     { icon: Icons.clipboard, title: 'Custom Care Plans', description: 'Individualized attention for each child' },
-    { icon: Icons.home, title: '3 Locations', description: 'Multiple homes in Charlotte area' },
+    { icon: Icons.home, title: '6 Homes', description: 'Charlotte and Gastonia locations' },
     { icon: Icons.phone, title: '24/7 Support', description: 'Round-the-clock availability' },
   ]
 
