@@ -17,8 +17,8 @@ const Focus = () => {
     },
     {
       icon: Icons.heartFilled,
-      title: 'Patient-Centered Care',
-      description: 'We pay particular attention to patient preference, safety, privacy, and confidentiality in the planning of care.',
+      title: 'Member-Centered Care',
+      description: 'We pay particular attention to member preference, safety, privacy, and confidentiality in the planning of care.',
     },
   ]
 

@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     'CQL accredited',
     'DDA group homes',
   ],
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: 'Royal Child Academy',
     description:

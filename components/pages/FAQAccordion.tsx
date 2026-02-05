@@ -26,12 +26,12 @@ const FAQAccordion = () => {
     {
       question: 'What is your experience?',
       answer:
-        'Founded in 2018, Royal Child Academy has extensive past performance with Good Shepherd Church I/DD Children, Lighthouse Children with I/DD, and numerous other families with I/DD children. We have built a reputation of excellence in comprehensive, quality, friendly and patient-centered care.',
+        'Founded in 2018, Royal Child Academy has extensive past performance with Good Shepherd Church I/DD Children, Lighthouse Children with I/DD, and numerous other families with I/DD children. We have built a reputation of excellence in comprehensive, quality, friendly and member-centered care.',
     },
     {
       question: 'What makes Royal Child Academy different?',
       answer:
-        'At Royal Child Academy, we believe families deserve to work with a provider who sees you or your loved one as more than just a patient. We develop care plans based on individual needs and our teams are hand-selected for their ability to provide thoughtful and respectful care.',
+        'At Royal Child Academy, we believe families deserve to work with a provider who sees you or your loved one as more than just a number. We develop care plans based on individual needs and our teams are hand-selected for their ability to provide thoughtful and respectful care.',
     },
     {
       question: 'Are you licensed and accredited?',

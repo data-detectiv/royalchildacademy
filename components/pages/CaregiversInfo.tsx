@@ -14,7 +14,7 @@ const CaregiversInfo = () => {
     {
       icon: Icons.home,
       title: 'Flexibility',
-      description: 'Hours of care customized to patient preferences. Schedules change as client needs change.',
+      description: 'Hours of care customized to member preferences. Schedules change as client needs change.',
     },
     {
       icon: Icons.handshake,
@@ -34,7 +34,7 @@ const CaregiversInfo = () => {
     'Bonded and insured',
     'Ongoing education on caregiving skills',
     'Services support individual preferences',
-    'Maintaining dignity and independence of patients',
+    'Maintaining dignity and independence of members',
   ]
 
   return (
