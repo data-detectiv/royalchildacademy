@@ -1,10 +1,19 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import { Icons } from '../icons'
 
+interface FormItem {
+  title: string
+  description: string
+  icon: React.ReactNode
+  href: string | null
+  online?: string
+}
+
 const FormsList = () => {
-  const forms = [
+  const forms: FormItem[] = [
     {
       title: 'Employment Application',
       description: 'Application form for job seekers interested in joining our team.',
@@ -13,9 +22,10 @@ const FormsList = () => {
     },
     {
       title: 'Referral Form',
-      description: 'Form for professionals to refer a child to our services.',
+      description: 'Form for professionals to refer a child to our services. Download, or submit online.',
       icon: Icons.clipboard,
-      href: null,
+      href: '/royal-child-academy-referral-form.doc',
+      online: '/referrals#referral-form',
     },
     {
       title: 'Family Information',
@@ -63,22 +73,33 @@ const FormsList = () => {
                 {form.title}
               </h3>
               <p className="text-gray-500 mb-4 md:mb-6 text-sm md:text-base">{form.description}</p>
-              {form.href ? (
-                <a
-                  href={form.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-accent font-medium group-hover:underline text-sm md:text-base"
-                >
-                  <div className="w-4 h-4">{Icons.download}</div>
-                  Download PDF
-                </a>
-              ) : (
-                <span className="inline-flex items-center gap-2 text-gray-400 font-medium text-sm md:text-base">
-                  <div className="w-4 h-4">{Icons.download}</div>
-                  Contact for Form
-                </span>
-              )}
+              <div className="flex flex-col gap-2">
+                {form.href ? (
+                  <a
+                    href={form.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-accent font-medium group-hover:underline text-sm md:text-base"
+                  >
+                    <div className="w-4 h-4">{Icons.download}</div>
+                    Download Form
+                  </a>
+                ) : (
+                  <span className="inline-flex items-center gap-2 text-gray-400 font-medium text-sm md:text-base">
+                    <div className="w-4 h-4">{Icons.download}</div>
+                    Contact for Form
+                  </span>
+                )}
+                {form.online && (
+                  <Link
+                    href={form.online}
+                    className="inline-flex items-center gap-2 text-accent font-medium hover:underline text-sm md:text-base"
+                  >
+                    <div className="w-4 h-4">{Icons.arrowRight}</div>
+                    Submit Online
+                  </Link>
+                )}
+              </div>
             </motion.div>
           ))}
         </div>

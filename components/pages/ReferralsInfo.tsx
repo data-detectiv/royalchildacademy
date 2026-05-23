@@ -114,7 +114,7 @@ const ReferralsInfo = () => {
         </div>
 
         <div className="text-center">
-          <Link href="/contact" className="btn btn-primary">
+          <Link href="#referral-form" className="btn btn-primary">
             Start a Referral
             <div className="w-4 h-4">{Icons.arrowRight}</div>
           </Link>
